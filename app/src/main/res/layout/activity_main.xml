@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E5E5"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="137dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:src="@drawable/logo_linkedin1"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="145dp"
+        android:text="@string/make_the_most_of_your_professional_life"
+        android:textColor="#070606"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_white_login_linkedin"
+        android:elevation="45dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/email_or_phone_number"
+            android:textAlignment="textStart" />
+
+        <EditText
+            android:id="@+id/textInput1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_marginBottom="8dp"
+            android:autofillHints=""
+            android:background="@drawable/bg_white_black_login_linkedin"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textInput1"
+            android:layout_marginBottom="5dp"
+            android:text="@string/password_6_or_more_characters"
+            android:textAlignment="textStart" />
+
+        <EditText
+            android:id="@+id/textInput2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView3"
+            android:layout_marginBottom="8dp"
+            android:autofillHints=""
+            android:background="@drawable/bg_white_black_login_linkedin"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textInput2"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/by_clicking_agree_join_you_agree_to_the_linkedin_user_agreement_privacy_policy_and_cookie_policy"
+            android:textAlignment="center"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_white_login_linkedin"
+            android:backgroundTint="#253FCD"
+            android:text="@string/agree_join1"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"/>
+<!--            app:cornerRadius="50dp" />-->
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button"
+            android:text="@string/or"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView5"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_join_with_google"
+            android:drawableStart="@drawable/googlebaru"
+            android:layout_gravity="clip_vertical"
+            android:text="@string/join_with_google"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            android:textColor="#4B5FD1" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/button2"
+            android:text="@string/already_on_linkedin"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button2"
+            android:layout_marginStart="195dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/sign_in"
+            android:textAlignment="textEnd"
+            android:textColor="#304BE1" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

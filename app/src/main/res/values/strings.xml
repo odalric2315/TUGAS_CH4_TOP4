@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Layout Login on Linkedin</string>
+    <string name="make_the_most_of_your_professional_life">Make the most of your professional life</string>
+    <string name="by_clicking_agree_join_you_agree_to_the_linkedin_user_agreement_privacy_policy_and_cookie_policy"><![CDATA[By clicking Agree & Join, you agree to the LinkedIn User Agreement, Privacy Policy, and Cookie Policy.]]></string>
+    <string name="agree_join"><![CDATA[Agree & Join]]></string>
+    <string name="todo">TODO</string>
+    <string name="email_or_phone_number">Email or phone number</string>
+    <string name="password_6_or_more_characters">Password (6 or more characters)</string>
+    <string name="or">____________________ or ____________________</string>
+    <string name="join_with_google">Join with Google</string>
+    <string name="already_on_linkedin">Already on Linkedin?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="todo1">TODO</string>
+    <string name="agree_join1"><![CDATA[Agree & Join]]></string>
+</resources>
